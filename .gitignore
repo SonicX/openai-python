@@ -1,19 +1,45 @@
-.prism.log
-_dev
+```
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-__pycache__
-.mypy_cache
-
-dist
-
-.venv
-.idea
-
+# Environment variables
 .env
-.envrc
-codegen.log
-Brewfile.lock.json
+.env.local
+*.env.*
 
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
+Thumbs.db
 
-examples/*.mp3
+# Build outputs
+dist/
+build/
+target/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+```
